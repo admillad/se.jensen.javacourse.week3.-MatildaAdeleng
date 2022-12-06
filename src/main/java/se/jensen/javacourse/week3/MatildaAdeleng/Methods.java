@@ -7,14 +7,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class EndNotes {
+public class Methods {
 
     @GetMapping("/author/name")
-    public String firstName(){
+    //PostMapping?
+    public static String firstName(){
         return "Matilda";
     }
 
-    @GetMapping ("/author")
+    @GetMapping
+    //PostMapping        ("/author")
     @ResponseBody
     public Person postPerson (){
         return new Person("Matilda", "Adeleng", 26);
@@ -22,6 +24,7 @@ public class EndNotes {
 
     //  @GetMapping ("/square-number/{nr}")
    // public
+    //return a 400 status with response entity (body: , httpStatus.BAD_Request)
 
 
 }

@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MatildaAdelengApplication {
     public static void main(String[] args) {
         SpringApplication.run(MatildaAdelengApplication.class, args);
-        EndNotes endNotes = new EndNotes();
-        endNotes.firstName();
+
+        Methods.firstName();
 
     }
 

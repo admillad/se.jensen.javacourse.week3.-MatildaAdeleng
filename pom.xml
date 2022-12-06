@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>se.jensen.javacourse.week3.</groupId>
 	<artifactId>MatildaAdeleng</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<endNotes>MatildaAdeleng</endNotes>
 	<description>Homework web app.</description>
 	<properties>
