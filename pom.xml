@@ -10,8 +10,7 @@
 	</parent>
 	<groupId>se.jensen.javacourse.week3.</groupId>
 	<artifactId>MatildaAdeleng</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-	<endNotes>MatildaAdeleng</endNotes>
+	<version>1.0.0</version>
 	<description>Homework web app.</description>
 	<properties>
 		<java.version>19</java.version>
@@ -40,7 +39,6 @@
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
-			<endNotes>Spring Milestones</endNotes>
 			<url>https://repo.spring.io/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -48,7 +46,6 @@
 		</repository>
 		<repository>
 			<id>spring-snapshots</id>
-			<endNotes>Spring Snapshots</endNotes>
 			<url>https://repo.spring.io/snapshot</url>
 			<releases>
 				<enabled>false</enabled>
@@ -58,7 +55,6 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-milestones</id>
-			<endNotes>Spring Milestones</endNotes>
 			<url>https://repo.spring.io/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -66,7 +62,6 @@
 		</pluginRepository>
 		<pluginRepository>
 			<id>spring-snapshots</id>
-			<endNotes>Spring Snapshots</endNotes>
 			<url>https://repo.spring.io/snapshot</url>
 			<releases>
 				<enabled>false</enabled>

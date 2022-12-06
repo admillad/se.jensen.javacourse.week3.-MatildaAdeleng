@@ -10,7 +10,6 @@ public class MatildaAdelengApplication {
     public static void main(String[] args) {
         SpringApplication.run(MatildaAdelengApplication.class, args);
 
-        Methods.firstName();
 
     }
 
