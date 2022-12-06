@@ -20,5 +20,8 @@ public class EndNotes {
         return new Person("Matilda", "Adeleng", 26);
     }
 
+    //  @GetMapping ("/square-number/{nr}")
+   // public
+
 
 }
